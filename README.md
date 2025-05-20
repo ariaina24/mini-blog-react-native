@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# MINI-BLOG 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Description
 
-## Get started
+Mini blog simple réalisé avec React Native et Expo.  
+Permet de consulter des articles, les commenter, et gérer des favoris.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Démarrage rapide
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1. Installer les dépendances
 
 ```bash
-npm run reset-project
+npm install
+````
+
+### 2. Lancer l'application en mode développement
+
+```bash
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 3. Lancer sur mobile (via tunnel)
 
-## Learn more
+```bash
+npx expo start --tunnel
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Fonctionnalités
 
-## Join the community
+* Liste des articles récupérés depuis une API.
+* Affichage détaillé d’un article avec ses commentaires.
+* Recherche d’articles par titre.
+* Gestion des favoris (ajout / suppression).
+* Navigation entre les pages.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Captures d’écran
+
+### Liste des articles
+
+![Liste des articles](assets/images/Accueil.png)
+
+### Détail d’un article
+
+![Détail article](assets/images/DetailArticle.png)
+
+### Favoris
+
+![Recherche et favoris](assets/images/Favori.png)
+
+---
+
+Merci d’avoir utilisé ce mini blog ! 😊
+
+---
